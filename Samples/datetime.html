@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Date Time Component</title>
+ <link rel="stylesheet" href="..\styles\datetime.css"/>
+</head>
+
+<body>
+ <h1>Live Date & Time Components</h1>
+
+ <div class="demo-container">
+  <!-- Default styling -->
+  <current-datetime></current-datetime>
+
+  <!-- Custom styling examples -->
+  <current-datetime format="12" theme="dark"></current-datetime>
+  <current-datetime format="24" theme="minimal"></current-datetime>
+
+  <!-- Localization examples -->
+  <current-datetime locale="es-ES" theme="dark"></current-datetime>
+  <current-datetime locale="ja-JP" format="24"></current-datetime>
+  <current-datetime locale="ar-SA" theme="minimal"></current-datetime>
+  <current-datetime locale="de-DE" format="24" theme="dark"></current-datetime>
+ </div>
+
+ <script src="..\js\current-datetime.js"></script>
+</body>
+</html>
